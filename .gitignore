@@ -1,16 +1,6 @@
 # User-specific files
 .Ruserdata
 
-# Commit these to Git - Need for renv
-# .Rprofile
-# renv.lock
-# renv/settings.json
-#renv/activate.R
-
-# Ignore renv cache and library
-renv/library/
-renv/cache/
-
 # Example code in package build process
 *-Ex.R
 
@@ -43,3 +33,13 @@ renv/cache/
 # Ignore everything in the "data" directory
 /data/*
 !/data/.gitkeep
+
+# Commit these to Git - Need for renv
+# .Rprofile
+# renv.lock
+# renv/settings.json
+#renv/activate.R
+
+# Ignore renv cache and library
+renv/library/
+renv/cache/
